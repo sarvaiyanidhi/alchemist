@@ -8,4 +8,10 @@ defmodule GuessingGame do
   # "Bigger number" -> Call Bigger(high,low) function
   # "Smaller number" -> Call Smaller(high,low) function
   # Anything else -> Throw valid exception message to input valid response
+
+  #Function to get middle number
+  def mid(low, high) do
+    div(low + high, 2)
+  end
+
 end
